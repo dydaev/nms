@@ -4,7 +4,13 @@ export const command = {
 		info: 'nvidia-smi -q -x',
 		list: 'nvidia-smi -L',
 	},
+	set: {
+		power: 'nvidia-smi -pl'
+	},
 };
 
-export const get = (command, device = undefined) =>
-    device ? `${command.get[command]} -i ${device}` : command.get[command];
+export const get = (command, params = '', device = undefined) =>
+	device ? `${command.get[command]} ${params} -i ${device}` : `${command.get[command]} ${params}`;
+	
+export const set = (command, params, device = undefined) =>
+    device ? `${command.set[command]} ${params} -i ${device}` : `${command.set[command]} ${params}`;

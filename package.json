@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf ./dist && webpack --config webpack.config.server.js",
+    "start": "rm -rf ./dist && webpack --mode development --config webpack.config.server.js",
     "dev": "rm -rf ./dist && webpack --target='node'  --mode development ./src/server/server.js",
     "build": "rm -rf ./dist && webpack --target='node'  --mode production ./src/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +27,7 @@
     "mongoose": "^5.0.14",
     "node-cmd": "^3.0.0",
     "node-telegram-bot-api": "^0.30.0",
+    "winston": "^2.4.1",
     "xml-js": "^1.6.2"
   },
   "devDependencies": {
