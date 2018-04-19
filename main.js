@@ -42,12 +42,12 @@ app.get('/cards', function (req, res) {
 		
 		Object.keys(cardsInfo.gpu).forEach(key => {
 			result += 'Card: ' + cardsInfo.gpu[key].name + '<br>\r\n';
-			const dataStartMainProc = mainerInfo.result.find(minCardObj => cardsInfo.gpu[key].id.substr(-12) === minCardObj.busid.substr(-12)).start_time
-			result += '-Started: ' + new Date(dataStartMainProc) + '<br>\r\n';
-			const cardSpeed = mainerInfo.result.find(minCardObj => cardsInfo.gpu[key].id.substr(-12) === minCardObj.busid.substr(-12)).speed_sps;
-			totalHashrate += cardSpeed;
-			result += '-Speed: ' + cardSpeed + 'Sol/sec<br>\r\n';
-			result += '-Shares: ' + mainerInfo.result.find(minCardObj => cardsInfo.gpu[key].id.substr(-12) === minCardObj.busid.substr(-12)).accepted_shares + '<br>\r\n';
+			//const dataStartMainProc = mainerInfo.result.find(minCardObj => cardsInfo.gpu[key].id.substr(-12) === minCardObj.busid.substr(-12)).start_time
+			//result += '-Started: ' + new Date(dataStartMainProc) + '<br>\r\n';
+			//const cardSpeed = mainerInfo.result.find(minCardObj => cardsInfo.gpu[key].id.substr(-12) === minCardObj.busid.substr(-12)).speed_sps;
+			//totalHashrate += cardSpeed;
+			//result += '-Speed: ' + cardSpeed + 'Sol/sec<br>\r\n';
+			//result += '-Shares: ' + mainerInfo.result.find(minCardObj => cardsInfo.gpu[key].id.substr(-12) === minCardObj.busid.substr(-12)).accepted_shares + '<br>\r\n';
 
 			result += '-Temperature: ' + cardsInfo.gpu[key].temperature + 'C<br>\r\n';
 			result += '-Fan: ' + cardsInfo.gpu[key].fan_speed + '%<br>\r\n';
@@ -72,7 +72,7 @@ setInterval((str) => {
 	serverTimer++;
 
 	if ((serverTimer % 10) === 0) {// every 10sec
-		try {
+		/*try {
 			http.get(ewbfApiUrl, function (response) {
 				var buffer = "", 
 				    data;
@@ -88,7 +88,7 @@ setInterval((str) => {
 			});
 		} catch(e) {
 			errors += 'e'
-		}
+		}*/
 
 		cmd.get(
 		    'nvidia-smi -q -x',

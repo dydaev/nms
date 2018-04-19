@@ -1,0 +1,1 @@
+exports.id=0,exports.modules={"./src/server/server.js":function(e,s,r){"use strict";r.r(s);var a=r("express"),t=r.n(a)()();t.get("/api",function(e,s){s.send({message:"I am a server route and can also be hot reloaded!"})}),s.default=t}};

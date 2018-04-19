@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node main --presets=env",
+    "start": "rm -rf ./dist && webpack --config webpack.config.server.js",
+    "dev": "rm -rf ./dist && webpack --target='node'  --mode development ./src/server/server.js",
+    "build": "rm -rf ./dist && webpack --target='node'  --mode production ./src/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +31,12 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "start-server-webpack-plugin": "^2.2.5",
+    "webpack": "^4.0.0-beta.3",
+    "webpack-cli": "^2.0.14",
+    "webpack-node-externals": "^1.7.2"
   }
 }
