@@ -1,3 +1,4 @@
+src/libs/accessConfig.js
 node_modules/
 .build/
 dist/

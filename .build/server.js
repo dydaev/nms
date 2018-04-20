@@ -19,7 +19,7 @@
 /******/
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "af3e6eec7995ac62d90a"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "361a9eca507057799645"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -729,6 +729,54 @@ eval("/* WEBPACK VAR INJECTION */(function(__resourceQuery) {/*\r\n\tMIT License
 
 /***/ }),
 
+/***/ "./src/libs/accessConfig.js":
+/*!**********************************!*\
+  !*** ./src/libs/accessConfig.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    session: {\n        sole: 'pticaGovorun',\n        key: 'sid',\n        cookie: {\n            httpOnly: true,\n            maxAge: null\n        }\n    },\n    mongo: {\n        login: 'rigerMod',\n        pass: 'luckSkywolker_81'\n    }\n});\n\n//# sourceURL=webpack:///./src/libs/accessConfig.js?");
+
+/***/ }),
+
+/***/ "./src/libs/config.js":
+/*!****************************!*\
+  !*** ./src/libs/config.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _accessConfig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accessConfig */ \"./src/libs/accessConfig.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object.assign({}, {\n    mongo: {\n        connect: {\n            host: '127.0.0.1',\n            port: '27017',\n            database: 'minerStore',\n            url: 'mongodb://localhost'\n        },\n        options: {\n            server: {\n                socketOptions: {\n                    keepAlive: 1\n                }\n            }\n        }\n    }\n}, _accessConfig__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n//# sourceURL=webpack:///./src/libs/config.js?");
+
+/***/ }),
+
+/***/ "./src/libs/mongoose.js":
+/*!******************************!*\
+  !*** ./src/libs/mongoose.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var mongoose__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mongoose */ \"mongoose\");\n/* harmony import */ var mongoose__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mongoose__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./config */ \"./src/libs/config.js\");\n\n\n\nmongoose__WEBPACK_IMPORTED_MODULE_0___default.a.set('debug', true);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (mongoose__WEBPACK_IMPORTED_MODULE_0___default.a.connect(_config__WEBPACK_IMPORTED_MODULE_1__[\"default\"].mongo.connect, _config__WEBPACK_IMPORTED_MODULE_1__[\"default\"].mongo.options));\n\n//# sourceURL=webpack:///./src/libs/mongoose.js?");
+
+/***/ }),
+
+/***/ "./src/libs/sessionStore.js":
+/*!**********************************!*\
+  !*** ./src/libs/sessionStore.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express_session__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express-session */ \"express-session\");\n/* harmony import */ var express_session__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express_session__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _mongoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mongoose */ \"./src/libs/mongoose.js\");\n\n\nvar MongoStore = __webpack_require__(/*! connect-mongo */ \"connect-mongo\")(express_session__WEBPACK_IMPORTED_MODULE_0___default.a);\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (new MongoStore({ mongooseConnection: _mongoose__WEBPACK_IMPORTED_MODULE_1__[\"default\"].connection }));\n\n//# sourceURL=webpack:///./src/libs/sessionStore.js?");
+
+/***/ }),
+
 /***/ "./src/server/index.js":
 /*!*****************************!*\
   !*** ./src/server/index.js ***!
@@ -749,7 +797,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var http
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n\n\nvar app = express__WEBPACK_IMPORTED_MODULE_0___default()();\nvar clientIp = '';\nvar port = 8080;\n\napp.use('/', function (req, res, next) {\n    clientIp = req.headers['x-forwarded-for'] || req.connection.remoteAddress;\n    console.log('Client(' + clientIp + ') sent request');\n    next();\n});\n\napp.use('/login', function (req, res, next) {\n    if (clientIp !== 7798) {\n        next();\n    }\n});\n\napp.get('/api_v.1', function (req, res) {\n    res.send({\n        message: 'version .11'\n    });\n});\nconsole.log('Mode ', \"development\");\nif (false) {}\n/* harmony default export */ __webpack_exports__[\"default\"] = (app);\n\n//# sourceURL=webpack:///./src/server/server.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _libs_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../libs/config */ \"./src/libs/config.js\");\n/* harmony import */ var _libs_sessionStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../libs/sessionStore */ \"./src/libs/sessionStore.js\");\n/* harmony import */ var inspector__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! inspector */ \"inspector\");\n/* harmony import */ var inspector__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(inspector__WEBPACK_IMPORTED_MODULE_4__);\n\n\n\n\n\n\n\nvar app = express__WEBPACK_IMPORTED_MODULE_0___default()();\nvar clientIp = '';\nvar port = 8080;\n\napp.use('/', function (req, res, next) {\n    clientIp = req.headers['x-forwarded-for'] || req.connection.remoteAddress;\n    console.log('Client(' + clientIp + ') sent request: ' + req);\n    next();\n});\n\napp.use('/login', function (req, res, next) {\n    if (clientIp !== 7798) {\n        next();\n    } else {\n        res.status(500).send('Something broke!');\n    }\n});\n\napp.use('/login/form', function (r, q) {\n    console.log('logiiin');\n    q.send('sa');\n}); //express.static(__dirname + 'html'));\n\napp.use(session({\n    secret: _libs_config__WEBPACK_IMPORTED_MODULE_2__[\"default\"].session.sole,\n    key: _libs_config__WEBPACK_IMPORTED_MODULE_2__[\"default\"].session.key,\n    cookie: _libs_config__WEBPACK_IMPORTED_MODULE_2__[\"default\"].session.cookie,\n    store: _libs_sessionStore__WEBPACK_IMPORTED_MODULE_3__[\"default\"]\n}));\n\napp.get('/api_v.1', function (req, res) {\n    res.send({\n        message: 'version .11333'\n    });\n});\nconsole.log('Mode ', \"development\");\nif (false) {}\n/* harmony default export */ __webpack_exports__[\"default\"] = (app);\n\n//# sourceURL=webpack:///./src/server/server.js?");
 
 /***/ }),
 
@@ -764,6 +812,17 @@ eval("__webpack_require__(/*! webpack/hot/poll?1000 */\"./node_modules/webpack/h
 
 /***/ }),
 
+/***/ "connect-mongo":
+/*!********************************!*\
+  !*** external "connect-mongo" ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"connect-mongo\");\n\n//# sourceURL=webpack:///external_%22connect-mongo%22?");
+
+/***/ }),
+
 /***/ "express":
 /*!**************************!*\
   !*** external "express" ***!
@@ -775,6 +834,17 @@ eval("module.exports = require(\"express\");\n\n//# sourceURL=webpack:///externa
 
 /***/ }),
 
+/***/ "express-session":
+/*!**********************************!*\
+  !*** external "express-session" ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"express-session\");\n\n//# sourceURL=webpack:///external_%22express-session%22?");
+
+/***/ }),
+
 /***/ "http":
 /*!***********************!*\
   !*** external "http" ***!
@@ -783,6 +853,39 @@ eval("module.exports = require(\"express\");\n\n//# sourceURL=webpack:///externa
 /***/ (function(module, exports) {
 
 eval("module.exports = require(\"http\");\n\n//# sourceURL=webpack:///external_%22http%22?");
+
+/***/ }),
+
+/***/ "inspector":
+/*!****************************!*\
+  !*** external "inspector" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"inspector\");\n\n//# sourceURL=webpack:///external_%22inspector%22?");
+
+/***/ }),
+
+/***/ "mongoose":
+/*!***************************!*\
+  !*** external "mongoose" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"mongoose\");\n\n//# sourceURL=webpack:///external_%22mongoose%22?");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"path\");\n\n//# sourceURL=webpack:///external_%22path%22?");
 
 /***/ })
 
