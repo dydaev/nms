@@ -1,54 +1,46 @@
 import cmd from 'node-cmd';
 import convert from 'xml-js';
 import * as commands from './commands'
+import localStor from '../libs/localStore';
 
-class Devices{
-	constructor() {
-		this.devices = {};
-		this.lastUpdates = '';
-		this.driverVersion = '';
-		this.countGPU = 0;
-
-		this.telemetry = {
-			gpu_util: '%',
-			memory_util: '%',
-			fan_speed: '%',
-			temperature: 'C',
-			memory_temp: 'C',
-			gpu_temp_max_threshold: 'C',
-			power_draw: 'W',
-			power_limit: 'W',
-			max_power_limit: 'W',
-			graphics_clock: 'MHz',
-			mem_clock: 'MHz',
-			video_clock: 'MHz',
-			max_graphics_clock: 'MHz',
-			max_mem_clock: 'MHz',
-			max_video_clock: 'MHz'
-		}
-		this.updateAllInfo();
-	}
-
-	updateInfo(device) {
-		const _this = this;
+export default {
+	updateInfo: (device) => {
 		cmd.get(
-		    commands.get(info, device),
+			'nvidia-smi -q -x',//commands.get(info, device),
 		    (err, data, stderr) => {
-				const json = JSON.parse(convert.xml2json(data, {compact: true, spaces: 2}));
-				_this.pureStamp = json;
+				const json = JSON.parse(convert.xml2json(data, { compact: true, spaces: 2 }));
 
-				_this.lastUpdates = json.nvidia_smi_log.timestamp._text;
-				_this.driverVersion = json.nvidia_smi_log.driver_version._text;
-				_this.countGPU = Number.parseInt(json.nvidia_smi_log.attached_gpus._text);
-
+				let devices = {
+					lastUpdates: json.nvidia_smi_log.timestamp._text,
+					driverVersion: json.nvidia_smi_log.driver_version._text,
+					countGPU: Number.parseInt(json.nvidia_smi_log.attached_gpus._text),
+					gpu: {},
+					telemetry: {
+						gpu_util: '%',
+						memory_util: '%',
+						fan_speed: '%',
+						temperature: 'C',
+						memory_temp: 'C',
+						gpu_temp_max_threshold: 'C',
+						power_draw: 'W',
+						power_limit: 'W',
+						max_power_limit: 'W',
+						graphics_clock: 'MHz',
+						mem_clock: 'MHz',
+						video_clock: 'MHz',
+						max_graphics_clock: 'MHz',
+						max_mem_clock: 'MHz',
+						max_video_clock: 'MHz'
+					},
+				};
 				json.nvidia_smi_log.gpu.forEach(value => {
-					_this.devices.gpu[value.uuid._text] = {
+					devices.gpu[value.uuid._text] = {
 						id: value._attributes.id,
 						uuid: value.uuid._text,
 						brand: value.product_brand._text,
 						name: value.product_name._text,
 						vbios_version: value.vbios_version._text,
-						processes: value.processes.process_info.process_name._text,
+						processes: value.processes.process_info.process_name ? value.processes.process_info.process_name._text : '',
 						gpu_util: Number.parseInt(value.utilization.gpu_util._text),
 						memory_util: Number.parseInt(value.utilization.memory_util._text),
 						fan_speed: Number.parseInt(value.fan_speed._text),
@@ -70,15 +62,8 @@ class Devices{
 						},
 					}
 				});
+				localStor.set('nvidia-devices', devices);
 		    }
 		);
-	}
-
-	getDeviceList() {
-
-	}
-
-	get() {
-
-	}
+	},
 }

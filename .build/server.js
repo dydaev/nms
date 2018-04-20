@@ -19,7 +19,7 @@
 /******/
 /******/
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "adeacb80931cdb1a4453"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "4e903174813de084f0f5"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -749,7 +749,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _accessConfig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accessConfig */ \"./src/libs/accessConfig.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object.assign({}, {\n    mongo: {\n        connect: {\n            host: '127.0.0.1',\n            port: '27017',\n            database: 'minerStore',\n            url: 'mongodb://localhost'\n        },\n        options: {\n            server: {\n                socketOptions: {\n                    keepAlive: 1\n                }\n            }\n        }\n    }\n}, _accessConfig__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n//# sourceURL=webpack:///./src/libs/config.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _accessConfig__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./accessConfig */ \"./src/libs/accessConfig.js\");\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Object.assign({}, {\n    miner: {\n        server: 'eu1-zcash.flypool.org',\n        port: '3333',\n        apiHost: '192.168.1.222',\n        startApiPort: 42000,\n        wallet: 't1TfENUARE95mktDMt7viQvaCtLER3tepGy'\n    },\n    mongo: {\n        connect: {\n            host: '127.0.0.1',\n            port: '27017',\n            database: 'minerStore',\n            url: 'mongodb://localhost'\n        },\n        options: {\n            server: {\n                socketOptions: {\n                    keepAlive: 1\n                }\n            }\n        }\n    }\n}, _accessConfig__WEBPACK_IMPORTED_MODULE_0__[\"default\"]));\n\n//# sourceURL=webpack:///./src/libs/config.js?");
 
 /***/ }),
 
@@ -762,6 +762,53 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _acc
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var node_localstorage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! node-localstorage */ \"node-localstorage\");\n/* harmony import */ var node_localstorage__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(node_localstorage__WEBPACK_IMPORTED_MODULE_0__);\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ((function () {\n    var instance;\n\n    if (instance) {\n        console.log('call to store');\n        return instance;\n    } else {\n        console.log('create stor');\n        instance = {};\n        instance.set = function (key, value) {\n            return instance.store.setItem(key, JSON.stringify(value));\n        };\n        instance.get = function (key) {\n            return JSON.parse(instance.store.getItem(key));\n        };\n        instance.store = new node_localstorage__WEBPACK_IMPORTED_MODULE_0__[\"LocalStorage\"]('./scratch');\n        return instance;\n    }\n})());\n\n//# sourceURL=webpack:///./src/libs/localStore.js?");
+
+/***/ }),
+
+/***/ "./src/miner/commands.js":
+/*!*******************************!*\
+  !*** ./src/miner/commands.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("\n\n//# sourceURL=webpack:///./src/miner/commands.js?");
+
+/***/ }),
+
+/***/ "./src/miner/index.js":
+/*!****************************!*\
+  !*** ./src/miner/index.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var node_cmd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! node-cmd */ \"node-cmd\");\n/* harmony import */ var node_cmd__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(node_cmd__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! http */ \"http\");\n/* harmony import */ var http__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(http__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _commands__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./commands */ \"./src/miner/commands.js\");\n/* harmony import */ var _commands__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_commands__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../libs/localStore */ \"./src/libs/localStore.js\");\n\n\n//var log = require('../libs/log')(module);\n\n\n// import config from '../libs/config';\n\nvar runMiner = 'sh /home/dydaev/ewbf-0.3.4b/miner';\nvar ApiUrl = 'http://192.168.1.222:42000/getstat';\n\nvar miner = {\n    pid: '',\n    devices: [],\n    apiPort: '',\n    startedAte: ''\n    /* \n    config.miner \n     (server\n    port\n    apiHost\n    startApiPort\n    wallet)\n     if (Array.isArray(devices)) {\n    //     dev = '--cuda_devices ' + devices.join(' ');\n    // }\n    //'lsof | grep 42000' check api port busy at the moment\n    --server\n    --port\n    --fee 0\n    --api 192.168.1.222:42000 --server eu1-zcash.flypool.org --port 3333 --intensity 64 --eexit --solver 0 --fee 0 --user t1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev\n    */\n};/* harmony default export */ __webpack_exports__[\"default\"] = ({\n    startMiner: function startMiner(config) {\n        return node_cmd__WEBPACK_IMPORTED_MODULE_0___default.a.get(runMiner + config).pid;\n    },\n\n    killPid: function killPid(pid) {\n        return pid ? node_cmd__WEBPACK_IMPORTED_MODULE_0___default.a.run('kill ' + pid) : false;\n    }, //log.info('Fail kill, no pid');\n\n    isWorkingPid: function isWorkingPid(pid) {\n        if (pid) {\n            node_cmd__WEBPACK_IMPORTED_MODULE_0___default.a.get('ps aux | grep ' + pid + ' | grep miner', function (err, data, stderr) {\n                return data ? true : false;\n            });\n        } // else log.info('Fail check pid, no pid');\n    },\n\n    getMinerInfo: function getMinerInfo() {\n        var result = {};\n        http__WEBPACK_IMPORTED_MODULE_1___default.a.get(ApiUrl, function (response) {\n            var buffer = \"\",\n                data;\n\n            response.on(\"data\", function (chunk) {\n                buffer += chunk;\n            });\n\n            response.on(\"end\", function (err) {\n                _libs_localStore__WEBPACK_IMPORTED_MODULE_3__[\"default\"].set('miner', JSON.parse(buffer));\n            });\n        });\n        //localStor.set('miner', result);\n        return result;\n    }\n});\n\n//# sourceURL=webpack:///./src/miner/index.js?");
+
+/***/ }),
+
+/***/ "./src/nvidia/commands.js":
+/*!********************************!*\
+  !*** ./src/nvidia/commands.js ***!
+  \********************************/
+/*! exports provided: command, get, set */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"command\", function() { return command; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"get\", function() { return get; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"set\", function() { return set; });\nvar command = {\n\tget: {\n\t\tpower: 'nvidia-smi -q -d power',\n\t\tinfo: 'nvidia-smi -q -x',\n\t\tlist: 'nvidia-smi -L'\n\t},\n\tset: {\n\t\tpower: 'nvidia-smi -pl'\n\t}\n};\n\nvar get = function get(command) {\n\tvar params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';\n\tvar device = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : undefined;\n\treturn device ? command.get[command] + ' ' + params + ' -i ' + device : command.get[command] + ' ' + params;\n};\n\nvar set = function set(command, params) {\n\tvar device = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : undefined;\n\treturn device ? command.set[command] + ' ' + params + ' -i ' + device : command.set[command] + ' ' + params;\n};\n\n//# sourceURL=webpack:///./src/nvidia/commands.js?");
+
+/***/ }),
+
+/***/ "./src/nvidia/index.js":
+/*!*****************************!*\
+  !*** ./src/nvidia/index.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var node_cmd__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! node-cmd */ \"node-cmd\");\n/* harmony import */ var node_cmd__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(node_cmd__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var xml_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! xml-js */ \"xml-js\");\n/* harmony import */ var xml_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(xml_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _commands__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./commands */ \"./src/nvidia/commands.js\");\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../libs/localStore */ \"./src/libs/localStore.js\");\n\n\n\n\n\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\n\tupdateInfo: function updateInfo(device) {\n\t\tnode_cmd__WEBPACK_IMPORTED_MODULE_0___default.a.get('nvidia-smi -q -x', //commands.get(info, device),\n\t\tfunction (err, data, stderr) {\n\t\t\tvar json = JSON.parse(xml_js__WEBPACK_IMPORTED_MODULE_1___default.a.xml2json(data, { compact: true, spaces: 2 }));\n\n\t\t\tvar devices = {\n\t\t\t\tlastUpdates: json.nvidia_smi_log.timestamp._text,\n\t\t\t\tdriverVersion: json.nvidia_smi_log.driver_version._text,\n\t\t\t\tcountGPU: Number.parseInt(json.nvidia_smi_log.attached_gpus._text),\n\t\t\t\tgpu: {},\n\t\t\t\ttelemetry: {\n\t\t\t\t\tgpu_util: '%',\n\t\t\t\t\tmemory_util: '%',\n\t\t\t\t\tfan_speed: '%',\n\t\t\t\t\ttemperature: 'C',\n\t\t\t\t\tmemory_temp: 'C',\n\t\t\t\t\tgpu_temp_max_threshold: 'C',\n\t\t\t\t\tpower_draw: 'W',\n\t\t\t\t\tpower_limit: 'W',\n\t\t\t\t\tmax_power_limit: 'W',\n\t\t\t\t\tgraphics_clock: 'MHz',\n\t\t\t\t\tmem_clock: 'MHz',\n\t\t\t\t\tvideo_clock: 'MHz',\n\t\t\t\t\tmax_graphics_clock: 'MHz',\n\t\t\t\t\tmax_mem_clock: 'MHz',\n\t\t\t\t\tmax_video_clock: 'MHz'\n\t\t\t\t}\n\t\t\t};\n\t\t\tjson.nvidia_smi_log.gpu.forEach(function (value) {\n\t\t\t\tdevices.gpu[value.uuid._text] = {\n\t\t\t\t\tid: value._attributes.id,\n\t\t\t\t\tuuid: value.uuid._text,\n\t\t\t\t\tbrand: value.product_brand._text,\n\t\t\t\t\tname: value.product_name._text,\n\t\t\t\t\tvbios_version: value.vbios_version._text,\n\t\t\t\t\tprocesses: value.processes.process_info.process_name ? value.processes.process_info.process_name._text : '',\n\t\t\t\t\tgpu_util: Number.parseInt(value.utilization.gpu_util._text),\n\t\t\t\t\tmemory_util: Number.parseInt(value.utilization.memory_util._text),\n\t\t\t\t\tfan_speed: Number.parseInt(value.fan_speed._text),\n\t\t\t\t\ttemperature: Number.parseInt(value.temperature.gpu_temp._text),\n\t\t\t\t\tmemory_temp: Number.parseInt(value.temperature.memory_temp._text),\n\t\t\t\t\tgpu_temp_max_threshold: Number.parseInt(value.temperature.gpu_temp_max_threshold._text),\n\t\t\t\t\tpower_draw: Number.parseInt(value.power_readings.power_draw._text),\n\t\t\t\t\tpower_limit: Number.parseInt(value.power_readings.power_limit._text),\n\t\t\t\t\tmax_power_limit: Number.parseInt(value.power_readings.max_power_limit._text),\n\t\t\t\t\tdispaly: value.display_mode._text === 'Enabled' ? true : false,\n\t\t\t\t\tclocks: {\n\t\t\t\t\t\tgraphics_clock: Number.parseInt(value.clocks.graphics_clock._text),\n\t\t\t\t\t\tmem_clock: Number.parseInt(value.clocks.mem_clock._text),\n\t\t\t\t\t\tvideo_clock: Number.parseInt(value.clocks.video_clock._text),\n\n\t\t\t\t\t\tmax_graphics_clock: Number.parseInt(value.max_clocks.graphics_clock._text),\n\t\t\t\t\t\tmax_mem_clock: Number.parseInt(value.max_clocks.mem_clock._text),\n\t\t\t\t\t\tmax_video_clock: Number.parseInt(value.max_clocks.video_clock._text)\n\t\t\t\t\t}\n\t\t\t\t};\n\t\t\t});\n\t\t\t_libs_localStore__WEBPACK_IMPORTED_MODULE_3__[\"default\"].set('nvidia-devices', devices);\n\t\t});\n\t}\n});\n\n//# sourceURL=webpack:///./src/nvidia/index.js?");
 
 /***/ }),
 
@@ -789,6 +836,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var http
 
 /***/ }),
 
+/***/ "./src/server/routes/cards/info.js":
+/*!*****************************************!*\
+  !*** ./src/server/routes/cards/info.js ***!
+  \*****************************************/
+/*! exports provided: GET */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET\", function() { return GET; });\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../libs/localStore */ \"./src/libs/localStore.js\");\n\n\nvar GET = function GET(req, res) {\n    res.send(_libs_localStore__WEBPACK_IMPORTED_MODULE_0__[\"default\"].get('nvidia-devices')); //nvidia-devices\n};\n\n//# sourceURL=webpack:///./src/server/routes/cards/info.js?");
+
+/***/ }),
+
 /***/ "./src/server/routes/cards/list.js":
 /*!*****************************************!*\
   !*** ./src/server/routes/cards/list.js ***!
@@ -798,18 +857,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var http
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET\", function() { return GET; });\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../libs/localStore */ \"./src/libs/localStore.js\");\n\n\nvar GET = function GET(req, res) {\n    res.send(_libs_localStore__WEBPACK_IMPORTED_MODULE_0__[\"default\"].get('a1'));\n};\n\n//# sourceURL=webpack:///./src/server/routes/cards/list.js?");
-
-/***/ }),
-
-/***/ "./src/server/routes/control/info.js":
-/*!*******************************************!*\
-  !*** ./src/server/routes/control/info.js ***!
-  \*******************************************/
-/*! exports provided: GET */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET\", function() { return GET; });\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../libs/localStore */ \"./src/libs/localStore.js\");\n\n\nvar GET = function GET(req, res) {\n    res.send(_libs_localStore__WEBPACK_IMPORTED_MODULE_0__[\"default\"].get('a1'));\n};\n\n//# sourceURL=webpack:///./src/server/routes/control/info.js?");
 
 /***/ }),
 
@@ -833,7 +880,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n\nvar controllers = {\n    'api_v.1': {\n        'control': {\n            'info': __webpack_require__(/*! ./control/info */ \"./src/server/routes/control/info.js\"),\n            'set_power': __webpack_require__(/*! ./control/setPower */ \"./src/server/routes/control/setPower.js\")\n        },\n        'miner': {\n            'stop': __webpack_require__(/*! ./miner/stop */ \"./src/server/routes/miner/stop.js\"),\n            'start': __webpack_require__(/*! ./miner/start */ \"./src/server/routes/miner/start.js\")\n        },\n        'cards': {\n            'list': __webpack_require__(/*! ./cards/list */ \"./src/server/routes/cards/list.js\")\n        }\n    }\n};\n\nvar checkAccess = function checkAccess(app) {\n    return true;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (app) {\n    return app.route('/api_v.1/*').all(function (req, res, next) {\n        if (true) {\n            var method = req.method;\n            var path = req.path.split('/').slice(1);\n            var value = path.reduce(function (acc, val) {\n                return Object.prototype.toString.call(acc) === '[object Object]' ? acc[val] : acc[val] === undefined ? false : val;\n            }, controllers);\n\n            if (value && Object.prototype.toString.call(value[method]) === '[object Function]') {\n                value[method](req, res);\n            } else res.status(501).send('api not found');\n        } else {}\n    });\n});\n\n//# sourceURL=webpack:///./src/server/routes/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n\nvar controllers = {\n    'api_v.1': {\n        'control': {\n            'set_power': __webpack_require__(/*! ./control/setPower */ \"./src/server/routes/control/setPower.js\")\n        },\n        'miner': {\n            'info': __webpack_require__(/*! ./miner/info */ \"./src/server/routes/miner/info.js\"),\n            'stop': __webpack_require__(/*! ./miner/stop */ \"./src/server/routes/miner/stop.js\"),\n            'start': __webpack_require__(/*! ./miner/start */ \"./src/server/routes/miner/start.js\")\n        },\n        'cards': {\n            'info': __webpack_require__(/*! ./cards/info */ \"./src/server/routes/cards/info.js\"),\n            'list': __webpack_require__(/*! ./cards/list */ \"./src/server/routes/cards/list.js\")\n        }\n    }\n};\n\nvar checkAccess = function checkAccess(app) {\n    return true;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (function (app) {\n    return app.route('/api_v.1/*').all(function (req, res, next) {\n        if (true) {\n            var method = req.method;\n            var path = req.path.split('/').slice(1);\n            var value = path.reduce(function (acc, val) {\n                return Object.prototype.toString.call(acc) === '[object Object]' ? acc[val] : acc[val] === undefined ? false : val;\n            }, controllers);\n\n            if (value && Object.prototype.toString.call(value[method]) === '[object Function]') {\n                value[method](req, res);\n            } else res.status(501).send('api not found');\n        } else {}\n    });\n});\n\n//# sourceURL=webpack:///./src/server/routes/index.js?");
+
+/***/ }),
+
+/***/ "./src/server/routes/miner/info.js":
+/*!*****************************************!*\
+  !*** ./src/server/routes/miner/info.js ***!
+  \*****************************************/
+/*! exports provided: GET */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET\", function() { return GET; });\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../libs/localStore */ \"./src/libs/localStore.js\");\n\n\nvar GET = function GET(req, res) {\n    res.send(_libs_localStore__WEBPACK_IMPORTED_MODULE_0__[\"default\"].get('miner'));\n};\n\n//# sourceURL=webpack:///./src/server/routes/miner/info.js?");
 
 /***/ }),
 
@@ -869,7 +928,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ \"./src/server/routes/index.js\");\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../libs/localStore */ \"./src/libs/localStore.js\");\n/* harmony import */ var _libs_config__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../libs/config */ \"./src/libs/config.js\");\n/* harmony import */ var _html_loginForm__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./html/loginForm */ \"./src/server/html/loginForm.js\");\n\n\n\n\n\n\n//const localStor = new Stor();\n\n\n\n\nvar versionApi = '.1';\n\n_libs_localStore__WEBPACK_IMPORTED_MODULE_3__[\"default\"].set('a1', 'mama');\nconsole.log(_libs_localStore__WEBPACK_IMPORTED_MODULE_3__[\"default\"].get('a1'));\n// if (typeof localStorage === \"undefined\" || localStorage === null) {\n//     var LocalStorage = require('node-localstorage').LocalStorage;\n//     localStorage = new LocalStorage('./scratch');\n// }\n//localStorage.setItem('myFirstKey', JSON.stringify('rew'));\n//console.log(JSON.parse(localStorage.getItem('myFirstKey')));\n\nvar app = express__WEBPACK_IMPORTED_MODULE_0___default()();\nvar clientIp = '';\nvar port = 8080;\n\napp.use('/', function (req, res, next) {\n    clientIp = (req.headers['x-forwarded-for'] || req.connection.remoteAddress).split(':');\n    clientIp = clientIp[clientIp.length - 1];\n    console.log(new Date() + ' ' + clientIp + ':' + req.method + '(' + req.originalUrl + ')');\n    next();\n});\n\napp.use('/login', function (req, res, next) {\n    if (clientIp !== 7798) {\n        //req.signedCookies.user  !== undefined &&\n        next();\n    } else {\n        res.status(500).send('Something broke!');\n    }\n});\n//res.setHeader('Cache-Control', 'public, max-age=0')\n\napp.use('/login/form', function (req, res) {\n    return res.send(_html_loginForm__WEBPACK_IMPORTED_MODULE_5__[\"default\"]);\n});\n//app.use(middlewares);\nObject(_routes__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(app);\n//require('./routes')(app);\n\nif (false) {}\n/* harmony default export */ __webpack_exports__[\"default\"] = (app);\n\n//# sourceURL=webpack:///./src/server/server.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! express */ \"express\");\n/* harmony import */ var express__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(express__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./routes */ \"./src/server/routes/index.js\");\n/* harmony import */ var _nvidia__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../nvidia */ \"./src/nvidia/index.js\");\n/* harmony import */ var _miner__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../miner */ \"./src/miner/index.js\");\n/* harmony import */ var _libs_localStore__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../libs/localStore */ \"./src/libs/localStore.js\");\n/* harmony import */ var _libs_config__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../libs/config */ \"./src/libs/config.js\");\n/* harmony import */ var _html_loginForm__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./html/loginForm */ \"./src/server/html/loginForm.js\");\n\n\n\n\n\n\n\n\n\n\n\n\nvar versionApi = '.1';\n\n_libs_localStore__WEBPACK_IMPORTED_MODULE_5__[\"default\"].set('a1', 'mama');\nconsole.log(_libs_localStore__WEBPACK_IMPORTED_MODULE_5__[\"default\"].get('a1'));\n\nvar app = express__WEBPACK_IMPORTED_MODULE_0___default()();\nvar port = 8080;\nvar clientIp = '';\nvar serverTimer = 0;\n\napp.use('/', function (req, res, next) {\n    clientIp = (req.headers['x-forwarded-for'] || req.connection.remoteAddress).split(':');\n    clientIp = clientIp[clientIp.length - 1];\n    console.log(new Date() + ' ' + clientIp + ':' + req.method + '(' + req.originalUrl + ')');\n    next();\n});\n\napp.use('/login', function (req, res, next) {\n    if (clientIp !== 7798) {\n        //req.signedCookies.user  !== undefined &&\n        next();\n    } else {\n        res.status(500).send('Something broke!');\n    }\n});\n//res.setHeader('Cache-Control', 'public, max-age=0')\n\napp.use('/login/form', function (req, res) {\n    return res.send(_html_loginForm__WEBPACK_IMPORTED_MODULE_7__[\"default\"]);\n});\n//app.use(middlewares);\nObject(_routes__WEBPACK_IMPORTED_MODULE_2__[\"default\"])(app);\n\nsetInterval(function () {\n    serverTimer++;\n    _nvidia__WEBPACK_IMPORTED_MODULE_3__[\"default\"].updateInfo();\n    _miner__WEBPACK_IMPORTED_MODULE_4__[\"default\"].getMinerInfo();\n}, 1000);\n\nif (false) {}\n/* harmony default export */ __webpack_exports__[\"default\"] = (app);\n\n//# sourceURL=webpack:///./src/server/server.js?");
 
 /***/ }),
 
@@ -906,6 +965,17 @@ eval("module.exports = require(\"http\");\n\n//# sourceURL=webpack:///external_%
 
 /***/ }),
 
+/***/ "node-cmd":
+/*!***************************!*\
+  !*** external "node-cmd" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"node-cmd\");\n\n//# sourceURL=webpack:///external_%22node-cmd%22?");
+
+/***/ }),
+
 /***/ "node-localstorage":
 /*!************************************!*\
   !*** external "node-localstorage" ***!
@@ -925,6 +995,17 @@ eval("module.exports = require(\"node-localstorage\");\n\n//# sourceURL=webpack:
 /***/ (function(module, exports) {
 
 eval("module.exports = require(\"path\");\n\n//# sourceURL=webpack:///external_%22path%22?");
+
+/***/ }),
+
+/***/ "xml-js":
+/*!*************************!*\
+  !*** external "xml-js" ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = require(\"xml-js\");\n\n//# sourceURL=webpack:///external_%22xml-js%22?");
 
 /***/ })
 

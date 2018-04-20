@@ -2,14 +2,15 @@
 const controllers = {
     'api_v.1': {
         'control': {
-            'info': require('./control/info'),
             'set_power': require('./control/setPower'),
         },
         'miner': {
+            'info': require('./miner/info'),
             'stop': require('./miner/stop'),
             'start': require('./miner/start'),
         },
         'cards': {
+            'info': require('./cards/info'),
             'list': require('./cards/list'),
         }
     }
