@@ -1,4 +1,6 @@
 src/libs/accessConfig.js
 node_modules/
+scratch/
 .build/
+.dist/
 dist/
