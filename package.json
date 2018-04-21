@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/dydaev/nms#readme",
   "dependencies": {
+    "beepbeep": "^1.2.2",
     "config": "^1.30.0",
     "connect-mongo": "^2.0.1",
     "express": "^4.16.3",

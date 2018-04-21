@@ -4,15 +4,16 @@ import path from 'path';
 import routes from './routes';
 import nvidia from '../nvidia';
 import miner from '../miner';
-
+import robot from '../robot'
 import localStor from '../libs/localStore';
 import config from '../libs/config';
+var log = require('../libs/log')(process.mainModule.filename);
 
 import loginForm from './html/loginForm';
 
 const versionApi = '.1';
 
-localStor.set('a1','mama');
+localStor.set('a1','Initial local store');
 console.log(localStor.get('a1'))
 
 const app = express()
@@ -42,8 +43,12 @@ app.use('/login/form', (req, res) => res.send(loginForm));
 
 setInterval(() => {
     serverTimer++;
-    nvidia.updateInfo();
-    miner.getMinerInfo();
+    if (!(serverTimer % 5)) {
+        nvidia.updateInfo();
+        miner.getMinerInfo();
+        robot();
+        //log.info('info')
+    }
 }, 1000)
 
 if (process.env.NODE_ENV === 'production') {

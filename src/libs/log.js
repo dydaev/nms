@@ -1,8 +1,7 @@
 var winston = require('winston');
 
-function getLogger(module) {
-
-    var path = module.filename.split('/').slice(-2).join('/');
+function getLogger(filePath) {
+    var path = filePath ? filePath.split('/').slice(-2).join('/') : 'path undefined';
     return new winston.Logger({
         transports: [
             new winston.transports.Console({

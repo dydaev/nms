@@ -1,0 +1,621 @@
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:02.475Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:07.492Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:12.509Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:17.526Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:22.534Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:27.547Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:32.562Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:37.580Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:42.595Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:47.607Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:52.618Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:04:57.631Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:02.644Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:03.256Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:07.659Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:08.266Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:12.671Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:13.274Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:17.681Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:18.287Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:22.695Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:23.296Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:27.706Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:28.310Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:32.720Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:33.322Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:37.733Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:38.333Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:42.745Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:43.345Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:47.759Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:48.352Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:52.774Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:53.365Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:57.783Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:05:58.376Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:02.797Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:03.384Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:07.810Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:08.394Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:12.821Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:13.404Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:17.834Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:18.415Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:22.846Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:23.431Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:27.857Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:28.440Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:32.868Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:33.456Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:37.882Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:38.468Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:42.889Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:43.481Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:47.898Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:48.493Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:52.911Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:53.504Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:57.925Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:06:58.862Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:02.935Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:03.876Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:08.272Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:08.886Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:13.286Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:13.896Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:18.294Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:18.909Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:23.308Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:23.921Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:28.322Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:28.932Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:33.666Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:33.946Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:38.680Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:38.964Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:43.690Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:43.978Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:48.707Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:48.988Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:53.725Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:53.997Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:58.741Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:07:59.008Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:03.752Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:04.024Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:08.767Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:09.041Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:13.781Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:14.051Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:18.796Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:19.067Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:23.813Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:24.099Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:28.828Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:29.111Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:33.845Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:34.120Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:38.861Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:39.130Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:43.875Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:44.142Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:48.889Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:49.157Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:53.900Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:54.168Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:58.915Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:08:59.182Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:03.929Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:04.193Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:08.943Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:09.205Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:13.958Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:14.216Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:18.973Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:19.239Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:23.989Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:24.251Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:29.006Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:29.264Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:34.021Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:34.276Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:39.038Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:39.294Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:44.053Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:44.306Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:49.065Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:49.318Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:54.093Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:54.349Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:59.106Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:09:59.361Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:04.121Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:04.373Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:09.136Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:09.385Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:14.152Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:14.399Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:19.164Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:19.422Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:24.173Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:24.433Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:29.188Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:29.446Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:34.201Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:34.455Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:39.210Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:39.468Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:44.227Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:44.479Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:49.239Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:49.496Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:54.251Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:54.544Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:59.266Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:10:59.558Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:11:04.281Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:11:04.568Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:11:09.297Z"}
+{"level":"info","message":"info","label":".build/server.js","timestamp":"2018-04-21T09:11:09.584Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506","label":".build/server.js","timestamp":"2018-04-21T10:05:44.612Z"}
+{"level":"info","message":"Cards spids 732Sol/sec 518","label":".build/server.js","timestamp":"2018-04-21T10:05:49.623Z"}
+{"level":"info","message":"Cards spids 732Sol/sec 518","label":".build/server.js","timestamp":"2018-04-21T10:05:54.633Z"}
+{"level":"info","message":"Cards spids 732Sol/sec 518","label":".build/server.js","timestamp":"2018-04-21T10:05:59.644Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 514","label":".build/server.js","timestamp":"2018-04-21T10:06:04.657Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 514","label":".build/server.js","timestamp":"2018-04-21T10:06:09.674Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 514","label":".build/server.js","timestamp":"2018-04-21T10:06:14.700Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 514","label":".build/server.js","timestamp":"2018-04-21T10:06:19.713Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 514","label":".build/server.js","timestamp":"2018-04-21T10:06:24.725Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 514","label":".build/server.js","timestamp":"2018-04-21T10:06:29.738Z"}
+{"level":"info","message":"Cards spids 731Sol/sec 516","label":".build/server.js","timestamp":"2018-04-21T10:06:34.754Z"}
+{"level":"info","message":"Cards spids 731Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:07:41.978Z"}
+{"level":"info","message":"Cards spids 730Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:07:46.991Z"}
+{"level":"info","message":"Cards spids 730Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:07:52.005Z"}
+{"level":"info","message":"Cards spids 730Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:07:57.020Z"}
+{"level":"info","message":"Cards spids 730Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:02.033Z"}
+{"level":"info","message":"Cards spids 722Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:07.050Z"}
+{"level":"info","message":"Cards spids 722Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:12.063Z"}
+{"level":"info","message":"Cards spids 722Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:17.074Z"}
+{"level":"info","message":"Cards spids 722Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:22.091Z"}
+{"level":"info","message":"Cards spids 722Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:27.103Z"}
+{"level":"info","message":"Cards spids 722Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:32.118Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:37.130Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:42.146Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:47.155Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:52.168Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:08:57.179Z"}
+{"level":"info","message":"Cards spids 728Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:02.194Z"}
+{"level":"info","message":"Cards spids 729Sol/sec 526Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:07.207Z"}
+{"level":"info","message":"Cards spids 729Sol/sec 526Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:12.221Z"}
+{"level":"info","message":"Cards spids 729Sol/sec 526Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:17.231Z"}
+{"level":"info","message":"Cards spids 729Sol/sec 526Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:22.244Z"}
+{"level":"info","message":"Cards spids 729Sol/sec 526Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:27.256Z"}
+{"level":"info","message":"Cards spids 729Sol/sec 526Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:32.271Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:37.285Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:42.300Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:47.314Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:52.330Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:09:57.345Z"}
+{"level":"info","message":"Cards spids 733Sol/sec 506Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:02.360Z"}
+{"level":"info","message":"Cards spids 724Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:07.375Z"}
+{"level":"info","message":"Cards spids 724Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:12.393Z"}
+{"level":"info","message":"Cards spids 724Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:17.406Z"}
+{"level":"info","message":"Cards spids 724Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:22.421Z"}
+{"level":"info","message":"Cards spids 724Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:27.433Z"}
+{"level":"info","message":"Cards spids 724Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:32.455Z"}
+{"level":"info","message":"Cards speed 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:35.938Z"}
+{"level":"info","message":"Cards spids 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:37.468Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:39.936Z"}
+{"level":"info","message":"Cards speed 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:40.949Z"}
+{"level":"info","message":"Cards spids 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:42.482Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:44.950Z"}
+{"level":"info","message":"Cards speed 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:46.003Z"}
+{"level":"info","message":"Cards spids 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:47.493Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:10:58.648Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:03.665Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:08.680Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:13.690Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:18.701Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:23.716Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:28.729Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:33.740Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 505Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:38.761Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 505Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:43.769Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 505Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:48.777Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 505Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:53.804Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 505Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:11:58.820Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 505Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:03.831Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:08.846Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:13.858Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:18.872Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:23.884Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:28.897Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:33.910Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 524Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:38.923Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 524Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:43.938Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 524Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:48.952Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 524Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:53.964Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 524Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:12:58.975Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 524Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:03.991Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:09.003Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:14.020Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:19.035Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:24.048Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:29.062Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:34.077Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:39.091Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:44.104Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:49.120Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:54.135Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:13:59.149Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 512Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:04.165Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:09.183Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:14.242Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:19.253Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:24.265Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:29.282Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:34.294Z"}
+{"level":"info","message":"Cards speed: 723Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:39.310Z"}
+{"level":"info","message":"Cards speed: 723Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:44.330Z"}
+{"level":"info","message":"Cards speed: 723Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:49.343Z"}
+{"level":"info","message":"Cards speed: 723Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:54.357Z"}
+{"level":"info","message":"Cards speed: 723Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:14:59.369Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:04.387Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:09.403Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:14.417Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:17.052Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:19.431Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:30.510Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:35.525Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:40.541Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:45.555Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:50.567Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:15:55.581Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:00.594Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:05.610Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:10.621Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:15.633Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:20.646Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:25.661Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:30.674Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:35.683Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:40.698Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:45.712Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:50.725Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:16:55.737Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:00.744Z"}
+{"level":"info","message":"Cards speed: 738Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:05.761Z"}
+{"level":"info","message":"Cards speed: 738Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:10.773Z"}
+{"level":"info","message":"Cards speed: 738Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:15.787Z"}
+{"level":"info","message":"Cards speed: 738Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:20.800Z"}
+{"level":"info","message":"Cards speed: 738Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:25.814Z"}
+{"level":"info","message":"Cards speed: 738Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:30.828Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:35.843Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:40.858Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:45.870Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:50.897Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:17:55.911Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:00.925Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:05.940Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:10.953Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:15.968Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:20.979Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:25.992Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:31.008Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:36.024Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:41.038Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:46.053Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:51.066Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:18:56.080Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:01.094Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:06.106Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:11.136Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:16.151Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:21.166Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:26.179Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:31.194Z"}
+{"level":"info","message":"Cards speed: 718Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:36.217Z"}
+{"level":"info","message":"Cards speed: 718Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:41.235Z"}
+{"level":"info","message":"Cards speed: 718Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:46.251Z"}
+{"level":"info","message":"Cards speed: 718Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:51.266Z"}
+{"level":"info","message":"Cards speed: 718Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:19:56.282Z"}
+{"level":"info","message":"Cards speed: 718Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:01.298Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:06.311Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:11.329Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:16.343Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:21.357Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:26.371Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:31.385Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:36.408Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:41.430Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:46.448Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:51.459Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:20:56.477Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:01.492Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:06.503Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:11.518Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:16.531Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:21.549Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:26.561Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:31.578Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:36.598Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:41.620Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:46.633Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:51.649Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:21:56.667Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:01.689Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:06.700Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:11.714Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:16.727Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:21.742Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:26.755Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:31.770Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:36.784Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:41.799Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:46.811Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:51.822Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:22:56.834Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:01.849Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:06.861Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:11.877Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:16.891Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:21.903Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:26.914Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:31.926Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:36.941Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:41.957Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:46.970Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:51.983Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:23:57.000Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:02.018Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:07.033Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:12.047Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:17.062Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:22.082Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:27.097Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:32.113Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:37.126Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:42.137Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:47.152Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:52.167Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:24:57.180Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 517Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:02.195Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 507Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:07.211Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 507Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:12.227Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 507Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:17.243Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 507Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:22.258Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 507Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:27.271Z"}
+{"level":"info","message":"Cards speed: 733Sol/sec 507Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:32.287Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:37.302Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:42.313Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:47.328Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:52.340Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:25:57.357Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:02.371Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:07.385Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:12.396Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:17.408Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:22.421Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:27.441Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:32.458Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:37.476Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:42.489Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:47.503Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:52.518Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:26:57.530Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:02.544Z"}
+{"level":"info","message":"Cards speed: 735Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:07.560Z"}
+{"level":"info","message":"Cards speed: 735Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:12.572Z"}
+{"level":"info","message":"Cards speed: 735Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:17.590Z"}
+{"level":"info","message":"Cards speed: 735Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:22.604Z"}
+{"level":"info","message":"Cards speed: 735Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:27.619Z"}
+{"level":"info","message":"Cards speed: 735Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:32.634Z"}
+{"level":"info","message":"Cards speed: 737Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:37.649Z"}
+{"level":"info","message":"Cards speed: 737Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:42.665Z"}
+{"level":"info","message":"Cards speed: 737Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:47.676Z"}
+{"level":"info","message":"Cards speed: 737Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:52.692Z"}
+{"level":"info","message":"Cards speed: 737Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:27:57.704Z"}
+{"level":"info","message":"Cards speed: 737Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:02.716Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:07.735Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:12.750Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:17.762Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:22.778Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:27.794Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:32.810Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:37.824Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:42.840Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:47.859Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:52.874Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:28:57.890Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec 519Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:02.905Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:07.921Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:12.938Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:17.953Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:22.970Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:27.987Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:33.008Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:38.024Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:43.041Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:48.059Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:53.078Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:29:58.093Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 521Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:03.112Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:08.127Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:13.143Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:18.160Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:23.172Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:28.188Z"}
+{"level":"info","message":"Cards speed: 726Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:33.203Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:38.220Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:43.229Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:48.245Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:53.257Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:30:58.274Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:03.288Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:08.302Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:13.316Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:18.332Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:23.349Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:28.366Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:33.383Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:38.404Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:43.421Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:48.438Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:53.454Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:31:58.473Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:03.490Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:08.507Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:13.523Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:18.540Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:23.560Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:28.582Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:33.599Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:38.613Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:43.631Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:48.648Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:53.669Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:32:58.689Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:03.705Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:08.724Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:13.735Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:18.747Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:23.760Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:28.774Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 523Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:33.789Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:38.805Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:43.821Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:48.838Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:53.854Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:33:58.870Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:03.885Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:08.901Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:13.916Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:18.934Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:23.949Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:28.962Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:33.977Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:39.000Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:44.018Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:49.029Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:54.045Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:34:59.059Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:04.074Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:09.088Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:14.106Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:19.122Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:24.136Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:29.156Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:34.168Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:39.186Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:44.202Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:49.219Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:54.234Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:35:59.250Z"}
+{"level":"info","message":"Cards speed: 731Sol/sec 518Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:04.264Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:09.278Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:14.294Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:19.311Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:24.328Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:27.628Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:29.341Z"}
+{"level":"info","message":"Cards speed: 722Sol/sec 508Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:32.645Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:34.349Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:37.660Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:39.364Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:42.675Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:44.377Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:47.684Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:49.395Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:52.701Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:54.409Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:57.713Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:36:59.427Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 515Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:02.721Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:04.441Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:07.735Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:09.456Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:12.749Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:14.472Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:17.763Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:19.487Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:22.782Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:24.513Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:27.796Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:29.528Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 511Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:32.807Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:34.549Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:37.827Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:39.563Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:42.895Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:44.581Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:44.903Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:37:55.443Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:00.458Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:05.490Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:10.506Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:15.525Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:20.548Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:25.571Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec mplayer ../public/sirena_2.mp3516Sol/sec mplayer ../public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:38:26.281Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 516Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:38:30.597Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec mplayer ../public/sirena_2.mp3518Sol/sec mplayer ../public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:38:31.302Z"}
+{"level":"info","message":"Cards speed: 727Sol/sec mplayer ./src/public/sirena_2.mp3518Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:19.000Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:24.017Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:29.043Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:34.060Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:39.082Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:44.098Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:49.113Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:54.129Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:46:59.150Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:00.874Z"}
+{"level":"info","message":"Cards speed: 736Sol/sec mplayer ./src/public/sirena_2.mp3509Sol/sec mplayer ./src/public/sirena_2.mp3 ","label":".build/server.js","timestamp":"2018-04-21T10:47:04.167Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:05.883Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:15.869Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:20.881Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:25.893Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:30.907Z"}
+{"level":"info","message":"Cards speed: 730Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:35.916Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:40.927Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:45.940Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:50.957Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:47:55.969Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:00.981Z"}
+{"level":"info","message":"Cards speed: 724Sol/sec 513Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:05.994Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:11.011Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:16.021Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:21.036Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:26.049Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:31.064Z"}
+{"level":"info","message":"Cards speed: 725Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:36.073Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:41.085Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:46.094Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:51.106Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:48:56.121Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:01.133Z"}
+{"level":"info","message":"Cards speed: 732Sol/sec 520Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:06.153Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:11.163Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:16.176Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:21.189Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:26.204Z"}
+{"level":"info","message":"Cards speed: 734Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:31.215Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:36.228Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:41.242Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:46.257Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:51.273Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:49:56.289Z"}
+{"level":"info","message":"Cards speed: 728Sol/sec 510Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:01.298Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:06.312Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:11.333Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:16.344Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:21.358Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:26.375Z"}
+{"level":"info","message":"Cards speed: 729Sol/sec 509Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:31.394Z"}
+{"level":"info","message":"Cards speed: 714Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:36.408Z"}
+{"level":"info","message":"Cards speed: 714Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:41.421Z"}
+{"level":"info","message":"Cards speed: 714Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:46.434Z"}
+{"level":"info","message":"Cards speed: 714Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:51.448Z"}
+{"level":"info","message":"Cards speed: 714Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:50:56.468Z"}
+{"level":"info","message":"Cards speed: 714Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:51:01.484Z"}
+{"level":"info","message":"Cards speed: 720Sol/sec 514Sol/sec  ","label":".build/server.js","timestamp":"2018-04-21T10:51:06.498Z"}

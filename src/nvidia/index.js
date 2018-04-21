@@ -1,20 +1,19 @@
 import cmd from 'node-cmd';
 import convert from 'xml-js';
-import * as commands from './commands'
 import localStor from '../libs/localStore';
 
 export default {
 	updateInfo: (device) => {
 		cmd.get(
 			'nvidia-smi -q -x',//commands.get(info, device),
-		    (err, data, stderr) => {
+			(err, data) => {
 				const json = JSON.parse(convert.xml2json(data, { compact: true, spaces: 2 }));
 
 				let devices = {
 					lastUpdates: json.nvidia_smi_log.timestamp._text,
 					driverVersion: json.nvidia_smi_log.driver_version._text,
 					countGPU: Number.parseInt(json.nvidia_smi_log.attached_gpus._text),
-					gpu: [],
+					gpu: {},
 					telemetry: {
 						gpu_util: '%',
 						memory_util: '%',

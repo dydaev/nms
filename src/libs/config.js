@@ -1,6 +1,11 @@
 import access from './accessConfig';
 
 export default Object.assign({},{
+    main: {
+        sounds: {
+            sirena: './src/public/sirena_2.mp3',
+        }
+    },
     miner: {
         server: 'eu1-zcash.flypool.org',
         port: '3333',
