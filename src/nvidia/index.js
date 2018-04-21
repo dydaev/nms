@@ -14,7 +14,7 @@ export default {
 					lastUpdates: json.nvidia_smi_log.timestamp._text,
 					driverVersion: json.nvidia_smi_log.driver_version._text,
 					countGPU: Number.parseInt(json.nvidia_smi_log.attached_gpus._text),
-					gpu: {},
+					gpu: [],
 					telemetry: {
 						gpu_util: '%',
 						memory_util: '%',
