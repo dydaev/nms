@@ -7,11 +7,17 @@ export default Object.assign({},{
         }
     },
     miner: {
+        run: 'miner',
+        homeFolder: '/home/dydaev/ewbf-0.3.4b/',
         server: 'eu1-zcash.flypool.org',
         port: '3333',
-        apiHost: '192.168.1.222',
+        apiHost: 'http://localhost',
         startApiPort: 42000,
         wallet: 't1TfENUARE95mktDMt7viQvaCtLER3tepGy',
+    },
+    devices: {
+        isDeviceUsedGpuUtil: 50,
+        isDeviceUsedGpuPow: 50,
     },
     mongo: {
         connect: {

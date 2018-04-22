@@ -7,7 +7,7 @@ import miner from '../miner';
 import robot from '../robot'
 import localStor from '../libs/localStore';
 import config from '../libs/config';
-var log = require('../libs/log')(process.mainModule.filename);
+var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-line
 
 import loginForm from './html/loginForm';
 
@@ -46,6 +46,16 @@ setInterval(() => {
     if (!(serverTimer % 5)) {
         nvidia.updateInfo();
         miner.getMinerInfo();
+        /*miner.addMiner({
+            api: '192.168.1.222:42000',
+            server: 'eu1-zcash.flypool.org',
+            port: '3333',
+            intensity: '60',
+            eexit: '3',
+            solver: '0',
+            fee: '0',
+            user: 't1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev',
+        });*/
         robot();
         //log.info('info')
     }
