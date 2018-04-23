@@ -9292,3 +9292,117 @@
 {"level":"info","message":"Cards speed: 742+517 1259Sol/sec | 93%(241W) 68C(52%)   |  100%(131W) 65C(40%) |","label":".build/server.js","timestamp":"2018-04-21T21:16:32.343Z"}
 {"level":"info","message":"Cards speed: 742+517 1259Sol/sec | 98%(244W) 68C(52%)   |  100%(130W) 65C(40%) |","label":".build/server.js","timestamp":"2018-04-21T21:16:37.359Z"}
 {"level":"info","message":"Cards speed: 734+506 1240Sol/sec | 92%(235W) 68C(52%)   |  100%(132W) 65C(40%) |","label":".build/server.js","timestamp":"2018-04-21T21:16:42.380Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:21.343Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:26.326Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:31.327Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:36.346Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:41.354Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:46.388Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:51.427Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:15:56.383Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:01.417Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:06.422Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:07.169Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:11.436Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:12.148Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:16.475Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:17.163Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:21.477Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:22.201Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:26.491Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:27.206Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:31.493Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:32.201Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:36.493Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:37.204Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:41.503Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:42.227Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:46.527Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:47.221Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:51.523Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:52.232Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:16:56.235Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:56.542Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:16:57.270Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:01.234Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:17:01.544Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:17:02.270Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:06.207Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:17:06.566Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: json is not defined","label":".build/server.js","timestamp":"2018-04-23T08:17:07.279Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:11.234Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: ReferenceError: err is not defined","label":".build/server.js","timestamp":"2018-04-23T08:17:11.563Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:16.302Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:21.307Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:26.309Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:31.318Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:36.321Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:39.100Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:41.336Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:17:44.124Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:20:32.151Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:20:37.145Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:20:42.139Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:20:47.171Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:20:52.173Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:20:57.224Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:02.205Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:07.212Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:12.237Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:17.234Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:21.972Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:22.242Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:26.966Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:27.264Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:31.998Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:32.281Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:36.981Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:37.295Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:37.944Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:41.993Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:42.289Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:42.975Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:45.940Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:47.005Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:47.289Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:51.766Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:21:56.776Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:01.753Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: TypeError: console.tablogle is not a function","label":".build/server.js","timestamp":"2018-04-23T08:22:05.508Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:06.788Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: TypeError: console.tablogle is not a function","label":".build/server.js","timestamp":"2018-04-23T08:22:10.523Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:11.789Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:12.556Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: TypeError: console.tablogle is not a function","label":".build/server.js","timestamp":"2018-04-23T08:22:15.533Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:16.797Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:17.568Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: TypeError: console.tablogle is not a function","label":".build/server.js","timestamp":"2018-04-23T08:22:20.584Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:21.826Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:22:22.564Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:24:39.876Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:24:44.859Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:24:49.868Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:24:54.864Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:26:46.517Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:26:51.488Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:26:56.520Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:27:01.498Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:27:51.250Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi, error: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:27:56.285Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 212\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:38:29.401Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 169\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:39:10.692Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 169\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:40:55.134Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 169\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:41:18.298Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 169\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:41:41.985Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 173\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:41:47.006Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 218\nColumn: 1\nChar: ,","label":".build/server.js","timestamp":"2018-04-23T08:42:00.696Z"}
+{"level":"error","message":"Json from nvidia is wrong or empty: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:46:04.033Z"}
+{"level":"error","message":"Json from nvidia is wrong or empty: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:47:47.610Z"}
+{"level":"error","message":"Can`t get data from nvidia-smi: Error: Text data outside of root node.\nLine: 0\nColumn: 15\nChar: ]","label":".build/server.js","timestamp":"2018-04-23T08:48:06.293Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:49:39.384Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:49:39.392Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:50:14.161Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:52:56.165Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T08:55:55.067Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T11:08:53.603Z"}
+{"level":"error","message":"Unexpected object for packing model nvidia: [object Object]","label":".build/server.js","timestamp":"2018-04-23T11:10:54.353Z"}

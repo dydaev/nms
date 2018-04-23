@@ -1,6 +1,5 @@
 import cmd from 'node-cmd';
 import {v4 as uuid} from 'uuid';
-import http from 'http';
 import request from 'request';
 
 import * as commands from './commands'
@@ -12,12 +11,7 @@ var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-
 const runMiner = 'sh /home/dydaev/ewbf-0.3.4b/miner';
 const ApiUrl = 'http://192.168.1.222:42000/getstat'
 
-const miner = {
-    pid: '',
-    devices: [],
-    apiPort: '',
-    startedAte: '',
-}
+
         /* 
         config.miner 
 
