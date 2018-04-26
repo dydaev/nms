@@ -4,3 +4,4 @@ scratch/
 .build/
 .dist/
 dist/
+./node.log

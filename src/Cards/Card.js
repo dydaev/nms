@@ -25,6 +25,7 @@ export default class Card {
         this.updaeteInfo();
     }
 
+    getPid = () => this.
     getHistoryPowerByTiks = tiks => this.oldierDrawPower.slice(0, tiks);
     getHistoryGpuUtilByTiks = tiks => this.oldierGpuUtil.slice(0, tiks);
 

@@ -6,40 +6,70 @@ var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-
 import localStor from '../libs/localStore';
 import config from '../libs/config';
 
+import models from './models';
 import InterfaceMinerModel from './InterfaceMinerModel';
 
 export default class Miner {
-    constructor(minerModel, params) {
-        //if (!minerModel instanceof InterfaceMinerModel) {
-            this.miner = {
-                enable: true,
-                id: uuid(),
-                pid: '',
-                startedAte: '',
-                devices: params ? params.cuda_devices : [],
-                apiPort: '',
-                state: '',
-                params: params,
-                cmdLine: '~/ewbf-0.3.4b/miner --api 192.168.1.222:42000 --server eu1-zcash.flypool.org --port 3333 --intensity 60 --eexit 3 --solver 0 --fee 0 --user t1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev',
-            }
-            log.info('Created new miner, id:' + this.miner.id);
-        //} else log.error('Didn`t add MinerModel in constructor!');
-
-        //this.getCommandLine = this.getCommandLine.bind(this);
+    constructor(params) {
+        this.miner = {
+            id: params.id,
+            pid: '',
+            name: '',
+            description: '';
+            coin: params.coin,
+            enable: params.enable || false,
+            addedAte: params.addedAte;
+            startedAte: '',
+            devices: params ? params.cuda_devices : [],
+            apiPort: '',
+            state: '',
+            params: params,
+            cmdLine: '~/ewbf-0.3.4b/miner --api 192.168.1.222:42000 --server eu1-zcash.flypool.org --port 3333 --intensity 60 --eexit 3 --solver 0 --fee 0 --user t1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev',
+        }
+        this.model = models[params.model];
+        console.log(this.model);
+        log.info('Added miner:' + this.miner.name);
     }
+
+    getId = () => this.miner.id;
+
+    getPid = () => this.miner.pid;
+
+    getName = () => this.miner.name;
+
+    getCoin = () => this.miner.coin;
+
+    getParams = () => this.miner.params;
+
+    getDescription = () => this.miner.description;
+
+    getDevices = () => this.miner.devices;
+
+    setDescription = newDescription => this.miner.description = newDescription;
+
+    setEnable = is => this.miner.enable = is;
+
+    isEnable = () => this.miner.enable;
 
     run() {
         if (true) {
-            var processId = (cmd.get(this.miner.cmdLine).pid) * 1 + 1;
-            log.info(new Date() + ' Miner runed with pid: ' + processId);
+            //var processId = (cmd.get(this.miner.cmdLine).pid) * 1 + 1;
+            //log.info(new Date() + ' Run miner with pid: ' + processId);
+            this.params.startedAte = new Date();
+            log.info(new Date() + ' Miner run: ' + this.getCommandLine());
+            
             this.miner.pid = processId;
             //console.log(this.getCommandLine());
         }
     }
 
     stop() {
-        log.info(new Date() + ' Stoping miner with pid ' + this.miner.pid);
-        return cmd.get('kill -9 ' + this.miner.pid);
+        if (this.miner.pid) {
+            this.params.startedAte = '';
+            log.info(new Date() + ' Stoping miner with pid ' + this.miner.pid);
+            //return cmd.get('kill -9 ' + this.miner.pid);
+            this.miner.pid = '';
+        }
     }
 
     restart() {

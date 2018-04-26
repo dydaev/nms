@@ -1,12 +1,16 @@
 {
   "name": "nms",
   "version": "1.0.0",
+  "babel": [
+    "env",
+    "stage-0"
+  ],
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf ./dist && webpack --mode development --config webpack.config.server.js",
+    "start": "webpack --mode development --config webpack.config.server.js",
     "dev": "rm -rf ./dist && webpack --target='node'  --mode development ./src/server/server.js",
-    "build": "rm -rf ./dist && webpack --target='node'  --mode production ./src/server/server.js",
+    "build": "rm -rf ./dist && webpack --mode production --module-bind js=babel-loader --target='node' --progress -p ./src/server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +25,7 @@
   },
   "homepage": "https://github.com/dydaev/nms#readme",
   "dependencies": {
+    "babel-polyfill": "^6.26.0",
     "beepbeep": "^1.2.2",
     "bluebird": "^3.5.1",
     "colors": "^1.2.1",
