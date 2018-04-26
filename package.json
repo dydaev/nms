@@ -23,6 +23,7 @@
   "dependencies": {
     "beepbeep": "^1.2.2",
     "bluebird": "^3.5.1",
+    "colors": "^1.2.1",
     "config": "^1.30.0",
     "connect-mongo": "^2.0.1",
     "express": "^4.16.3",

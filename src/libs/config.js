@@ -16,8 +16,9 @@ export default Object.assign({},{
         wallet: 't1TfENUARE95mktDMt7viQvaCtLER3tepGy',
     },
     devices: {
-        isDeviceUsedGpuUtil: 50,
-        isDeviceUsedGpuPow: 50,
+        isCardWorkIfCpuUsedMoreOfLimit: 30,
+        isCardWorkIfCpuPowerMoreOfLimit: 30,
+        limitLowLevelsInHistory: 2, // 1 level = one check power and GpuUtil every 5 seconds
     },
     mongo: {
         connect: {
