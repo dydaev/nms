@@ -16,7 +16,7 @@ const getAsync = Promise.promisify(cmd.get, { multiArgs: true, context: cmd });
 
 export default class Card {
     constructor(gpuId) {
-        console.log('Found new card, id: ' + colors.cyan(gpuId));
+        console.log('Found card, id: ' + colors.cyan(gpuId));
         this.gpuId = gpuId;
         this.card = {};
         this.tiksForHistory = 30; // 30 = 1min(if tick = 2sec)
@@ -25,7 +25,7 @@ export default class Card {
         this.updaeteInfo();
     }
 
-    getPid = () => this.
+    getPid = () => this.object.gpu.processes_pid * 1;
     getHistoryPowerByTiks = tiks => this.oldierDrawPower.slice(0, tiks);
     getHistoryGpuUtilByTiks = tiks => this.oldierGpuUtil.slice(0, tiks);
 

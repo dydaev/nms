@@ -6,7 +6,7 @@ var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-
 import localStor from '../libs/localStore';
 import config from '../libs/config';
 
-import models from './models';
+import * as models from './models';
 import InterfaceMinerModel from './InterfaceMinerModel';
 
 export default class Miner {
@@ -15,19 +15,23 @@ export default class Miner {
             id: params.id,
             pid: '',
             name: '',
-            description: '';
+            description: '',
+            server: '',
+            port: '',
+            wallet: '',
+            worker: '',
             coin: params.coin,
             enable: params.enable || false,
-            addedAte: params.addedAte;
+            addedAte: params.addedAte,
             startedAte: '',
             devices: params ? params.cuda_devices : [],
-            apiPort: '',
+            apiHost: '',
             state: '',
             params: params,
             cmdLine: '~/ewbf-0.3.4b/miner --api 192.168.1.222:42000 --server eu1-zcash.flypool.org --port 3333 --intensity 60 --eexit 3 --solver 0 --fee 0 --user t1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev',
         }
+
         this.model = models[params.model];
-        console.log(this.model);
         log.info('Added miner:' + this.miner.name);
     }
 

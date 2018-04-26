@@ -130,3 +130,14 @@
 {"level":"error","message":"Thu Apr 26 2018 18:25:20 GMT+0300 (EEST) Alarm cards is down!\n00000000:01:00.0  |  ,41W 41W 48W 131W 129W ,0% 0% 0% 100% 100% \n00000000:02:00.0  |  ,66W 66W 75W 244W 236W ,0% 0% 0% 100% 100% ","label":"dist/main.js","timestamp":"2018-04-26T15:25:20.453Z"}
 {"level":"info","message":"Thu Apr 26 2018 18:25:20 GMT+0300 (EEST) Stoping miner with pid 5700","label":"dist/main.js","timestamp":"2018-04-26T15:25:20.453Z"}
 {"level":"info","message":"Thu Apr 26 2018 18:25:20 GMT+0300 (EEST) Miner runed with pid: 8314","label":"dist/main.js","timestamp":"2018-04-26T15:25:20.670Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:32:29.597Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:34:58.851Z"}
+{"level":"error","message":"Thu Apr 26 2018 23:35:23 GMT+0300 (EEST) Alarm cards is down!\n00000000:01:00.0  |  ,43W 43W 130W 125W 124W ,0% 0% 96% 100% 99% \n00000000:02:00.0  |  ,73W 74W 240W 242W 241W ,0% 0% 100% 100% 97% ","label":"dist/main.js","timestamp":"2018-04-26T20:35:23.563Z"}
+{"level":"info","message":"Thu Apr 26 2018 23:35:23 GMT+0300 (EEST) Stoping miner with pid 8314","label":"dist/main.js","timestamp":"2018-04-26T20:35:23.564Z"}
+{"level":"info","message":"Thu Apr 26 2018 23:35:23 GMT+0300 (EEST) Miner runed with pid: 13506","label":"dist/main.js","timestamp":"2018-04-26T20:35:23.784Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:37:17.204Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:37:37.074Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:41:02.099Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:42:56.250Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:46:14.553Z"}
+{"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:49:57.774Z"}

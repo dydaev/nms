@@ -11,7 +11,7 @@ var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-
 export default class MinerManager {
     constructor() {
         const list = localStor.get('Miners') || {};
-        this.list = Object.keys(list).map(idMiner => new Miner(lisi[idMiner]));
+        this.list = Object.keys(list).map(idMiner => new Miner(list[idMiner]));
     }
 
     getModelsList = () => Object.keys(models);
@@ -21,14 +21,19 @@ export default class MinerManager {
     getMinerByPid = pidMiner => this.list.find(miner => miner.getPid() === pidMiner);
 
     addMiner = params => {
-        this.list = Object.keys(list).map(idMiner => new Miner({ ...params, addedAte: new Date() }));
+        this.list = [...this.list, new Miner({
+            ...params,
+            id: uuid(),
+            addedAte: new Date(),
+        })];
         this.saveMiners();
     }
 
     saveMiners = () => {
          const miners = this.list.reduce((objectMiners, miner) =>
             Object.assign({}, objectMiners, { [miner.getId()]: miner.getParams()}),{});
-        localStor.set(miners);
+            console.log(miners);
+        localStor.set('Miners', miners);
     }
 
     getMinersList = () => {

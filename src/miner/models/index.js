@@ -1,1 +1,1 @@
-export * from './ewbf-0.3.4b';
+export { ewbf034b } from './ewbf-0.3.4b';

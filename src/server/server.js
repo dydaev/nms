@@ -38,14 +38,13 @@ const minerConfig = {
     port: 3333,
     api: '192.168.1.222:42000',
     intensity: 64,
-    eexit: 3,
-    fee: 0,
     wallet: 't1TfENUARE95mktDMt7viQvaCtLER3tepGy',
     worker: 'slon'
 };
 
 const CardManager = new Cards();
 const MinerManager = new Miners();
+//MinerManager.addMiner(minerConfig);
 // ============================end initial
 
 app.use('/', (req, res, next) => {
@@ -55,8 +54,18 @@ app.use('/', (req, res, next) => {
     next();
 })
 
+const banList = [
+    '213.111.88.215',
+    '212.47.244.68',
+    '139.162.79.87',
+    '94.244.138.21',
+    '94.244.138.44',
+    '31.184.193.154',
+    '163.172.168.251',
+];
+
 app.use('/login', (req, res, next) => {
-    if (clientIp !== 7798) {//req.signedCookies.user  !== undefined &&
+    if (!banList.includes(clientIp)) {//req.signedCookies.user  !== undefined &&
         next();
     } else {
         res.status(500).send('Something broke!');
@@ -82,6 +91,7 @@ setInterval(() => {// eslint-disable-line
     
     if (!(serverTimer % 4)) {
         //MinerManager.stop();
+        console.log('--',MinerManager.getActiveMiners());
         if (CardManager.getIdFreeCards().length){
             if (skipedTicksOfCardsDown === 0) {
                 skipedTicksOfCardsDown = limitSkipTickOfCardsDown + 1;
