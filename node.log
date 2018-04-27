@@ -141,3 +141,27 @@
 {"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:42:56.250Z"}
 {"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:46:14.553Z"}
 {"level":"info","message":"Added miner:","label":".build/server.js","timestamp":"2018-04-26T20:49:57.774Z"}
+{"level":"error","message":"Fri Apr 27 2018 00:51:03 GMT+0300 (EEST) Alarm cards is down!\n00000000:01:00.0  |  ,40W 46W 89W 125W 129W ,0% 0% 100% 100% 100% \n00000000:02:00.0  |  ,65W 83W 242W 243W 239W ,0% 0% 100% 100% 99% ","label":"dist/main.js","timestamp":"2018-04-26T21:51:03.134Z"}
+{"level":"info","message":"Fri Apr 27 2018 00:51:03 GMT+0300 (EEST) Stoping miner with pid 13506","label":"dist/main.js","timestamp":"2018-04-26T21:51:03.135Z"}
+{"level":"info","message":"Fri Apr 27 2018 00:51:03 GMT+0300 (EEST) Miner runed with pid: 24097","label":"dist/main.js","timestamp":"2018-04-26T21:51:03.352Z"}
+{"level":"error","message":"Fri Apr 27 2018 10:49:31 GMT+0300 (EEST) Alarm cards is down!\n00000000:01:00.0  |  ,40W 43W 43W 130W 128W ,0% 0% 0% 100% 100% \n00000000:02:00.0  |  ,65W 80W 81W 239W 234W ,0% 0% 0% 100% 100% ","label":"dist/main.js","timestamp":"2018-04-27T07:49:31.968Z"}
+{"level":"info","message":"Fri Apr 27 2018 10:49:31 GMT+0300 (EEST) Stoping miner with pid 24097","label":"dist/main.js","timestamp":"2018-04-27T07:49:31.968Z"}
+{"level":"info","message":"Fri Apr 27 2018 10:49:32 GMT+0300 (EEST) Miner runed with pid: 32177","label":"dist/main.js","timestamp":"2018-04-27T07:49:32.188Z"}
+{"level":"warn","message":"Didn`t initial miner  for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T11:28:35.053Z"}
+{"level":"warn","message":"Didn`t initial miner  for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T11:30:57.325Z"}
+{"level":"warn","message":"Didn`t initial miner  for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T11:32:26.655Z"}
+{"level":"warn","message":"Didn`t initial miner  for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T11:51:57.500Z"}
+{"level":"warn","message":"Didn`t initial miner  for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:00:12.699Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:01:54.550Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:03:04.437Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:05:24.722Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:11:27.253Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:14:21.884Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:14:41.546Z"}
+{"level":"warn","message":"Can`t updating command line, please check \"keepCmdLine\" for miner flypool_1080","label":".build/server.js","timestamp":"2018-04-27T12:22:37.434Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:31:16.103Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:35:41.814Z"}
+{"level":"info","message":"Initial miner: flypool_1080 for model ewbf034b","label":".build/server.js","timestamp":"2018-04-27T12:37:29.357Z"}
+{"level":"error","message":"Fri Apr 27 2018 17:21:42 GMT+0300 (EEST) Alarm cards is down!\n00000000:01:00.0  |  ,43W 43W 128W 129W 125W ,0% 0% 100% 100% 100% \n00000000:02:00.0  |  ,75W 76W 241W 240W 242W ,0% 0% 91% 99% 94% ","label":"dist/main.js","timestamp":"2018-04-27T14:21:42.510Z"}
+{"level":"info","message":"Fri Apr 27 2018 17:21:42 GMT+0300 (EEST) Stoping miner with pid 32177","label":"dist/main.js","timestamp":"2018-04-27T14:21:42.511Z"}
+{"level":"info","message":"Fri Apr 27 2018 17:21:42 GMT+0300 (EEST) Miner runed with pid: 16710","label":"dist/main.js","timestamp":"2018-04-27T14:21:42.730Z"}

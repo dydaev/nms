@@ -50,7 +50,7 @@ export default class MinerManager {
             this.saveMiners();
             log.info('Deleted miner with id:' + idMiner);
             return true;
-        } else log.warning('Miner with id: ' + idMiner + ' is not found!');
+        } else log.warn('Miner with id: ' + idMiner + ' is not found!');
         return false;
     }
 
@@ -58,5 +58,5 @@ export default class MinerManager {
 
     getActiveCards = () => this.getActiveMiners().reduce((activeCards, miner) => [...activeCards, ...miner.getDevices()],[])
 
-    restartMiner = pidMiner => this.getMinerByPid(idMiner).restart();
+    restartMinerByPid = pidMiner => this.getMinerByPid(pidMiner).restart();
 }

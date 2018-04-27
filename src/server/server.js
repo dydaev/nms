@@ -39,7 +39,10 @@ const minerConfig = {
     api: '192.168.1.222:42000',
     intensity: 64,
     wallet: 't1TfENUARE95mktDMt7viQvaCtLER3tepGy',
-    worker: 'slon'
+    worker: 'slon',
+    rebootable: 0,
+    keepCmdLine: false,
+    cmdLine: '~/ewbf-0.3.4b/miner --api 192.168.1.222:42000 --server eu1-zcash.flypool.org --port 3333 --eexit 3 --fee 0 --user t1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev',
 };
 
 const CardManager = new Cards();
@@ -80,8 +83,6 @@ app.use(middlewares.showCookies);
 const limitSkipTickOfCardsDown = 5;
 let skipedTicksOfCardsDown = 0;
 
-//MinerManager.run();
-
 setInterval(() => {// eslint-disable-line
     serverTimer++;
 
@@ -90,36 +91,26 @@ setInterval(() => {// eslint-disable-line
     }
     
     if (!(serverTimer % 4)) {
-        //MinerManager.stop();
-        console.log('--',MinerManager.getActiveMiners());
-        if (CardManager.getIdFreeCards().length){
+        const activeMiners = MinerManager.getActiveMiners();
+
+        if (activeMiners.length){
             if (skipedTicksOfCardsDown === 0) {
                 skipedTicksOfCardsDown = limitSkipTickOfCardsDown + 1;
-                //const listIdFreeCards = CardManager.getIdFreeCards();
 
-                const usedCards = MinerManager.getActiveCards();
+                const activeCards = MinerManager.getActiveCards();
 
-                usedCards.forEach(idCard => {
+                activeCards.forEach(idCard => {
                     const card = CardManager.getCard(idCard);
                     if (!card.isWorkingCard()) {
 
                         log.error(new Date() + ` Card ${card.get('gpu.name')} : ${card.get('gpu.id')} is crashed`);
-                        MinerManager.restartMiner(card.get('gpu.processes_pid'))
+                        MinerManager.restartMinerByPid(card.get('gpu.processes_pid'))
                     }
                 });
                 
-                
                 skipedTicksOfCardsDown--;
             }
-        } else skipedTicksOfCardsDown = 0;
-
-
-        //console.log(GTX1070.get('lastUpdates'), '->' , GTX1070.get('gpu.power_draw') + 'W', GTX1080.get('gpu.power_draw') + 'W');
-        //if (serverTimer > 3) MinerManager.stop();
-        
-        
-        
-        
+        } else skipedTicksOfCardsDown = 0;        
         
         
         //nvidia.updateInfo();

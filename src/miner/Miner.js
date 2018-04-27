@@ -7,14 +7,14 @@ import localStor from '../libs/localStore';
 import config from '../libs/config';
 
 import * as models from './models';
-import InterfaceMinerModel from './InterfaceMinerModel';
+import InterfaceMinerModel from './models/InterfaceMinerModel';
 
 export default class Miner {
     constructor(params) {
         this.miner = {
             id: params.id,
             pid: '',
-            name: '',
+            name: params.name || 'noname',
             description: '',
             server: '',
             port: '',
@@ -28,11 +28,15 @@ export default class Miner {
             apiHost: '',
             state: '',
             params: params,
-            cmdLine: '~/ewbf-0.3.4b/miner --api 192.168.1.222:42000 --server eu1-zcash.flypool.org --port 3333 --intensity 60 --eexit 3 --solver 0 --fee 0 --user t1TfENUARE95mktDMt7viQvaCtLER3tepGy.dydaev',
+            keepCmdLine: params.keepCmdLine || false,
+            cmdLine: params.cmdLine || '',
         }
-
-        this.model = models[params.model];
-        log.info('Added miner:' + this.miner.name);
+        //if (!models[params.model] instanceof InterfaceMinerModel) {
+            this.Model = new models[params.model](params);
+        this.updateCmdLine(this.Model.getMinerPath() + this.Model.getParamsLine())
+        console.log('CMD:', this.miner.cmdLine);
+            log.info('Initial miner: ' + this.miner.name + ' for model ' + params.model);
+        //} else log.warn('Didn`t initial miner ' + this.miner.name + ' for model ' + params.model)
     }
 
     getId = () => this.miner.id;
@@ -83,6 +87,10 @@ export default class Miner {
         }, 200);
     }
     
+    updateCmdLine = newLine => (!this.miner.keepCmdLine
+        ? this.miner.cmdLine = newLine
+        : log.warn('Can`t updating command line, please check "keepCmdLine" for miner ' + this.miner.name));
+
     getCommandLine = () => this.miner.cmdLine;
         
 }

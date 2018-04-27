@@ -18,3 +18,12 @@ function getLogger(filePath) {
 }
 
 module.exports = getLogger;
+
+/*
+  log.silly('Message');
+  log.debug('Message');
+  log.verbose('Message');
+  log.info('Message');
+  log.warn('Message');
+  log.error('Message');
+*/
