@@ -1,5 +1,5 @@
 var log = require('./log')(process.mainModule.filename);// eslint-disable-line
-
+import cmd from 'node-cmd';
 
 //====================================packModel
 const getVariableFromDataObject = (model, dataObject, typeAndPath) => {
@@ -40,6 +40,33 @@ export const packModel = (model, dataObject) => {
     } else log.error('Unexpected object for packing model nvidia: ' + model);
 }
 //====================================END packModel
+
+export const getFreePortFromTo = (from, to) => {
+    //get used ports
+    
+    return cmd.get(
+        "netstat -tulpn | grep -E 'tcp|udp' | awk '{ print $4 }'",
+        (err, data) => {
+            const portsList = data.split('\n').map(portStr => {
+                const arrStr = portStr.split(':')
+                return arrStr[arrStr.length - 1];
+            });
+            let port;
+            const usedPortsBeetweenFromTo = portsList.reduce(
+                (list, port) =>
+                    ((port > from && port < to) ? [...list, port] : list)
+                , []
+            );
+            while (!port || usedPortsBeetweenFromTo.length < (to - from)) {
+                const testPort = Math.floor(Math.random() * (to - from)) + from;
+                port = portsList.includes(String.toString(testPort))
+                    ? undefined : testPort;
+            }
+            return port;
+        }
+    );
+
+}
 
 export const isJsonString = str => {
     try {

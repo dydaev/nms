@@ -1,4 +1,5 @@
 import cmd from 'node-cmd';
+import { spawn } from 'child_process'
 import { v4 as uuid } from 'uuid';
 
 import driver from './driver';
@@ -6,7 +7,7 @@ var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-
 import localStor from '../libs/localStore';
 import config from '../libs/config';
 
-import * as models from './models';
+import * as models from './models';//
 import InterfaceMinerModel from './models/InterfaceMinerModel';
 
 export default class Miner {
@@ -24,18 +25,20 @@ export default class Miner {
             enable: params.enable || false,
             addedAte: params.addedAte,
             startedAte: '',
-            devices: params ? params.cuda_devices : [],
+            uuid_devices: Array.isArray(params.devices) ? params.devices : [],
             apiHost: '',
             state: '',
             params: params,
+            reserve: params.reserve || false,
+            reservePool: params.reservePool || '',
             keepCmdLine: params.keepCmdLine || false,
             cmdLine: params.cmdLine || '',
+            rebootable: params.rebootable || true,
         }
         //if (!models[params.model] instanceof InterfaceMinerModel) {
-            this.Model = new models[params.model](params);
+        this.Model = new models[params.model](params);
         this.updateCmdLine(this.Model.getMinerPath() + this.Model.getParamsLine())
-        console.log('CMD:', this.miner.cmdLine);
-            log.info('Initial miner: ' + this.miner.name + ' for model ' + params.model);
+        log.info('Initial miner: ' + this.miner.name + ' for model ' + params.model);
         //} else log.warn('Didn`t initial miner ' + this.miner.name + ' for model ' + params.model)
     }
 
@@ -51,6 +54,10 @@ export default class Miner {
 
     getDescription = () => this.miner.description;
 
+    getReservePool = () => this.miner.reservePool;
+
+    getCmdLine = () => this.miner.cmdLine;
+
     getDevices = () => this.miner.devices;
 
     setDescription = newDescription => this.miner.description = newDescription;
@@ -59,32 +66,53 @@ export default class Miner {
 
     isEnable = () => this.miner.enable;
 
+    isReserve = () => this.miner.reserve;
+
     run() {
-        if (true) {
-            //var processId = (cmd.get(this.miner.cmdLine).pid) * 1 + 1;
-            //log.info(new Date() + ' Run miner with pid: ' + processId);
-            this.params.startedAte = new Date();
-            log.info(new Date() + ' Miner run: ' + this.getCommandLine());
+        if (this.miner.enable) {
+            console.log('Starting miner ' + this.Model.getMinerPath());
+            console.log('CMD', this.Model.getParamsArray());
             
-            this.miner.pid = processId;
-            //console.log(this.getCommandLine());
+            // this.minerProcess = spawn(this.Model.getMinerPath(), this.Model.getParamsArray());
+
+            // log.info(new Date() + ' Run miner with pid: ' + this.minerProcess.pid);
+
+            // this.minerProcess.stderr.on('error', error => log.error('Miner error:'+ error));
+            // this.minerProcess.stdout.on('data', data => this.parseProcess(data));
+            // this.minerProcess.on('close', (code) => {
+            //     console.log(`child process exited with code ${code}`);
+            // });
+
+            // this.miner.pid = this.minerProcess.pid;
+            
+            // this.miner.startedAte = new Date();
         }
     }
 
     stop() {
         if (this.miner.pid) {
-            this.params.startedAte = '';
-            log.info(new Date() + ' Stoping miner with pid ' + this.miner.pid);
-            //return cmd.get('kill -9 ' + this.miner.pid);
+            // this.params.startedAte = '';
+            // log.info(new Date() + ' Stoping miner with pid ' + this.miner.pid);
+            // return cmd.get('kill -9 ' + this.miner.pid);
+            this.minerProcess.kill(9);
             this.miner.pid = '';
         }
     }
 
     restart() {
-        this.stop()
-        setTimeout(() => {
-            this.run();
-        }, 200);
+        if (this.miner.rebootable) {
+            //this.minerProcess.kill('SIGHUP');
+            this.stop()
+            setTimeout(() => {
+                this.run();
+            }, 200);
+        }
+    }
+
+    parseProcess = data => {
+        console.log(data.toString('utf-8'));
+        log.info('Total speed:' + this.Model.processParser(data.toString('utf-8')))
+        this.model.getProcessParser(data);
     }
     
     updateCmdLine = newLine => (!this.miner.keepCmdLine

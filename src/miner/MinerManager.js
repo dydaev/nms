@@ -54,9 +54,23 @@ export default class MinerManager {
         return false;
     }
 
-    getActiveMiners = () => this.list.filter(miner => miner.isEnable());
+    getEnabledMiners = () => this.list.filter(miner => (miner.isEnable() && !miner.isReserve()));
+    
+    getEnabledCards = () => this.getEnabledMiners().reduce((activeCards, miner) => [...activeCards, ...miner.getDevices()],[])
+
+    getActiveMiners = () => this.list.filter(miner => (miner.isEnable() && !miner.isReserve()));
+
+    getActiveMinersId = () => this.getActiveMiners().map(miner => miner.getId());
 
     getActiveCards = () => this.getActiveMiners().reduce((activeCards, miner) => [...activeCards, ...miner.getDevices()],[])
-
+    
     restartMinerByPid = pidMiner => this.getMinerByPid(pidMiner).restart();
+
+    switchReserve(idMiner) {
+        const currentMiner = this.getMiner(idMiner);
+        const reserveMiner = this.getMiner(currentMiner.getReservePool());
+        currentMiner.stop();
+        reserveMiner.run();
+
+    }
 }

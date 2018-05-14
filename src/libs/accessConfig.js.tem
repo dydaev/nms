@@ -1,4 +1,8 @@
 export default {
+    secret: 'secretBanjBurger',
+    user: 'dydaev',
+    pass: 'whiteBelka0l0',
+    codesms: 'snufy',
     mongo: {
         login: '',
         pass: '',

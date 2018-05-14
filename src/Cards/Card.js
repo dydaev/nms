@@ -15,9 +15,10 @@ import Promise from 'bluebird';
 const getAsync = Promise.promisify(cmd.get, { multiArgs: true, context: cmd });
 
 export default class Card {
-    constructor(gpuId) {
+    constructor(gpuId, index) {
         console.log('Found card, id: ' + colors.cyan(gpuId));
         this.gpuId = gpuId;
+        this.index = index;
         this.card = {};
         this.tiksForHistory = 30; // 30 = 1min(if tick = 2sec)
         this.oldierDrawPower = new Array(this.tiksForHistory);
@@ -78,6 +79,8 @@ export default class Card {
     getInfo() {
         return this.card;
     }
+
+    getIndex = () => this.index;
 
     updaeteInfo() {
         getAsync('nvidia-smi -q -x -i ' + this.gpuId).then(data => {// eslint-disable-line
