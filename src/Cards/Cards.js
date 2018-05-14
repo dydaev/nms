@@ -27,7 +27,7 @@ export default class Cards {
                     Object.assign({}, cardList, { [idCard]: new Card(idCard, index) })
                 , {});
                 console.log(this.list);
-                
+
             } else log.error('No cards for initial in list');
 
         }).catch(err => {
@@ -46,14 +46,15 @@ export default class Cards {
     }
 
     getCard(id) {
-        if (Object.keys(this.list).includes(id)) {            
+        if (Object.keys(this.list).includes(id)) {
+            console.log(this.list[id])
             return this.list[id];
         } else log.info('Can`t get card with id: ' + id + ' is not found!');
         return undefined;
     }
 
     getIdFreeCards() {
-        return Object.keys(this.list).reduce((freeCards, idCard) =>
+        return Object.keys(this.list).reduce((Cards, idCard) =>
             this.list[idCard].isWorkingCard() ? freeCards : [...freeCards, idCard]
         , []);
     }
