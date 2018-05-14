@@ -68,7 +68,7 @@ const reserveMinerConfig = {
 };
 
 const CardManager = new Cards();
-const MinerManager = new Miners();
+const MinerManager = new Miners(CardManager);
 //CardManager.updateInfoCards();
 // MinerManager.addMiner(reserveMinerConfig);
 // ============================end initial

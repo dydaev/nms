@@ -11,7 +11,7 @@ import * as models from './models';//
 import InterfaceMinerModel from './models/InterfaceMinerModel';
 
 export default class Miner {
-    constructor(params) {
+    constructor(params, cardsManager) {
         this.miner = {
             id: params.id,
             pid: '',
@@ -36,7 +36,7 @@ export default class Miner {
             rebootable: params.rebootable || true,
         }
         //if (!models[params.model] instanceof InterfaceMinerModel) {
-        this.Model = new models[params.model](params);
+        this.Model = new models[params.model](params, cardsManager);
         this.updateCmdLine(this.Model.getMinerPath() + this.Model.getParamsLine())
         log.info('Initial miner: ' + this.miner.name + ' for model ' + params.model);
         //} else log.warn('Didn`t initial miner ' + this.miner.name + ' for model ' + params.model)

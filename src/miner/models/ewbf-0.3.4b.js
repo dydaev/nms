@@ -3,8 +3,8 @@ import InterfaceMinerModel from './InterfaceMinerModel';
 var log = require('../../libs/log')(process.mainModule.filename);// eslint-disable-line
 
 export class ewbf034b extends InterfaceMinerModel {
-    constructor(params, cardsList) {
-        super(params, cardsList);
+    constructor(params, cardsManager) {
+        super(params, cardsManager);
         this.params = params;
         this.pathToMiner = '/home/dydaev/ewbf-0.3.4b/miner';
         this.minimalParams = [
@@ -70,7 +70,8 @@ export class ewbf034b extends InterfaceMinerModel {
             intensity: () => (Number.parseInt(this.params.intensity) > 0 && (this.params.intensity <= 64 * 1))
                 ? ' --intensity ' + this.params.intensity : '',
             cuda_devices: () => (Array.isArray(this.params.devices) && this.params.devices.length)
-                ? ' --cuda_devices ' + this.params.devices.join(' ') : '',
+                ? ' --cuda_devices ' + this.params.devices.map(cardId =>
+                    this.cardsManager.getCard(cardId).getIndex()).join(' ') : '',
             solver: () => (Array.isArray(this.params.solver) && this.params.solver.length)
                 ? ' --solver ' + this.params.solver.join(' ') : '',
         };

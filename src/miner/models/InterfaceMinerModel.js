@@ -1,7 +1,8 @@
 var log = require('../../libs/log')(process.mainModule.filename);// eslint-disable-line
 
 export default class InterfaceMinerModel {
-    constructor(params, cardsList) {
+    constructor(params, cardsManager) {
+        this.cardsManager = cardsManager;
         if (!this.getParams) log.error('Model is have`nt method getParams()');
     }
 

@@ -9,9 +9,9 @@ var log = require('../libs/log')(process.mainModule.filename);// eslint-disable-
 
 
 export default class MinerManager {
-    constructor() {
+    constructor(cardsManager) {
         const list = localStor.get('Miners') || {};
-        this.list = Object.keys(list).map(idMiner => new Miner(list[idMiner]));
+        this.list = Object.keys(list).map(idMiner => new Miner(list[idMiner], cardsManager));
     }
 
     getModelsList = () => Object.keys(models);
