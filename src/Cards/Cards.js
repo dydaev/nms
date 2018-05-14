@@ -46,8 +46,8 @@ export default class Cards {
     }
 
     getCard(id) {
+        console.log(this.list)
         if (Object.keys(this.list).includes(id)) {
-            console.log(this.list[id])
             return this.list[id];
         } else log.info('Can`t get card with id: ' + id + ' is not found!');
         return undefined;
